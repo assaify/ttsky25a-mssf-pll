@@ -473,14 +473,15 @@ MACRO tt_um_assaify_mssf_pll
     END
   END uo_out[7]
   PIN VDPWR
-    ANTENNAGATEAREA 66.423500 ;
-    ANTENNADIFFAREA 179.243042 ;
+    DIRECTION INOUT ;
+    USE POWER ;
     PORT
       LAYER met4 ;
         RECT 0.000 0.500 4.000 225.500 ;
     END
   END VDPWR
   PIN VGND
+    DIRECTION INOUT ;
     USE GROUND ;
     PORT
       LAYER met4 ;
